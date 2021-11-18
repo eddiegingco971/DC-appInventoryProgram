@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentPadding="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/productName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="Product Name:"
+                    style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="450dp"
+                            android:src="@drawable/ic_baseline_point_of_sale_140"
+                            />
+                <TextView
+                    android:id="@+id/orderName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="Order Name:"
+                    style="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="Address:"
+                    style="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <TextView
+                    android:id="@+id/quantityOrder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="Quantity Order:"
+                    style="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <TextView
+                    android:id="@+id/createAt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="Created at:"
+                    style="@style/TextAppearance.AppCompat.Subhead"/>
+                <TextView
+                    android:id="@+id/updatedAt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="Updated at:"
+                    style="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/grey"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp" />
+                </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
